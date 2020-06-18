@@ -1,0 +1,154 @@
+body {
+    /*ubicacion de la imagen*/
+
+    background-image:url(imagenes/selva.jpg);
+    font-family: "Verdana", Times, serif;
+
+    /*para que no se repita*/
+    background-repeat: no-repeat;
+
+    /* cambia segun el ancho */
+    background-size: 100%;
+    
+    /* color de la fuente*/
+    color:rgb(6, 5, 61);
+}
+#formulario1{
+    font:italic;
+    color:rgb(6, 5, 61);
+    text-align: center;
+    width: 400px; /*ancho del div*/      
+    height: 400px; /*alto  del div*/ 
+    margin-top: 10%; 
+    margin-left: 40%; 
+    padding:1%;
+    background-image:url(imagenes/formulario.jpg);
+    background-size: cover;
+
+}
+#formulario2{
+    display:none;
+    font:italic;
+    color:rgb(6, 5, 61);
+    text-align: center;
+    width: 400px; /*ancho del div*/      
+    height: 400px; /*alto  del div*/ 
+    margin-top: 10%; 
+    margin-left: 40%; 
+    padding:1%;
+    background-image:url(imagenes/formulario.jpg);
+    background-size: cover;
+}
+
+#preguntaG1{
+    display:none;
+    font:italic;
+    color:rgb(6, 5, 61);
+    text-align: center;
+    width: 400px; /*ancho del div*/      
+    height: 400px; /*alto  del div*/ 
+    margin-top: 10%; 
+    margin-left: 40%; 
+    padding:1%;
+    background-image:url(imagenes/gastronomia.jpg);
+    background-size: cover;
+}
+#preguntaG2{
+    display:none;
+    font:italic;
+    color:rgb(6, 5, 61);
+    text-align: center;
+    width: 400px; /*ancho del div*/      
+    height: 400px; /*alto  del div*/ 
+    margin-top: 10%; 
+    margin-left: 40%;
+    padding:1%;
+    background-image:url(imagenes/gastronomia.jpg);
+    background-size: cover; 
+}
+
+#preguntaG3{
+    display:none;
+    font:italic;
+    color:rgb(6, 5, 61);
+    text-align: center;
+    width: 400px; /*ancho del div*/      
+    height: 400px; /*alto  del div*/ 
+    margin-top: 10%; 
+    margin-left: 40%; 
+    padding:1%;
+    background-image:url(imagenes/gastronomia.jpg);
+    background-size: cover;
+}
+
+#preguntaC1{
+    display:none;
+    font:italic;
+    color:rgb(6, 5, 61);
+    text-align: center;
+    width: 400px; /*ancho del div*/      
+    height: 400px; /*alto  del div*/ 
+    margin-top: 10%; 
+    margin-left: 40%; 
+    padding:1%;
+    background-image:url(imagenes/Cultura.jpg);
+    background-size: 100%;
+}
+
+#preguntaC2{
+    display:none;
+    font:italic;
+    color:rgb(6, 5, 61);
+    text-align: center;
+    width: 400px; /*ancho del div*/      
+    height: 400px; /*alto  del div*/ 
+    margin-top: 10%; 
+    margin-left: 40%; 
+    padding:1%;
+    background-image:url(imagenes/Cultura.jpg);
+    background-size: 100%;
+}
+
+#preguntaC3{
+    display:none;
+    font:italic;
+    color:rgb(6, 5, 61);
+    text-align: center;
+    width: 400px; /*ancho del div*/      
+    height: 400px; /*alto  del div*/ 
+    margin-top: 10%; 
+    margin-left: 40%;
+    padding:1%;
+    background-image:url(imagenes/Cultura.jpg);
+    background-size: 100%; 
+}
+
+#Formulario_Resultado_Gastronomia{
+    display:none;
+    font:italic;
+    color:rgb(6, 5, 61);
+    text-align: center;
+    width: 400px; /*ancho del div*/      
+    height: 400px; /*alto  del div*/ 
+    margin-top: 10%; 
+    margin-left: 40%; 
+    padding:1%;
+    background-image:url(imagenes/resultado.jpg);
+    background-size: cover;
+}
+
+#Formulario_Resultado_Cultura{
+    display:none;
+    font:italic;
+    color:rgb(6, 5, 61);
+    text-align: center;
+    width: 400px; /*ancho del div*/      
+    height: 400px; /*alto  del div*/ 
+    margin-top: 10%; 
+    margin-left: 40%; 
+    padding:1%;
+    background-image:url(imagenes/resultado.jpg);
+    background-size: cover;
+}
+
+

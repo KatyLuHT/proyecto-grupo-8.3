@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <link rel="shortcut icon" type="image/x-icon" href="imagenes/peicon.jpg">
+    <head>
+        <title>Mi PERÚ</title>
+        <link rel="stylesheet" type="text/css" href="estilo.css">
+        <meta charset="utf-8" />
+    </head>
+    <body>  
+
+        <div id='formulario1'>
+            <h1><u>Conociendo mi Perú </u></h1>
+            <h2>Ingrese su nombre</h2>
+            <!--recuadro para que ingreses el nombre-->       
+            <input type="text"  id="ingresenombre">
+            <p><b>Responde correctamente y obten un tours gratis al cusco!!!</b></p>
+            <!--asignamos un evento-->
+            <button onclick="abrirFormulario2()">JUGAR AHORA</button>
+        </div>
+        <div id ='formulario2'>
+            <H1 id="h1_holaNombre"></H1>
+            <p>"DIVIERTETE CONOCIENDO EL PERÚ"</p>
+            <p>Escoge la categoria</p>
+            <button onclick="abrirpreguntaC1()">CULTURA</button>
+            <button onclick="abrirpreguntaG1()">GASTRONOMIA</button>
+        </div>
+
+        <div id ='preguntaG1' >
+            <h1>Gastronomía</h1>
+            <h2>a) ¿Cuándo se celebra el día de la gastronomía peruana?</h2>       
+            <div>   
+                <input type="radio" id="rd_pg1_A" name="GASTRONOMIA_PG1" value="Segundo domingo de setiembre" > Segundo domingo de setiembre <br>
+                <input type="radio" id="rd_pg1_B" name="GASTRONOMIA_PG1">Seis de Octubre  <br>           
+                <input type="radio" id="rd_pg1_C" name="GASTRONOMIA_PG1">Veinticinco de Octubre <br><br>
+            </div>
+            <button onclick="abrirpreguntaG2()">SIGUIENTE</button>
+        </div>
+
+        <div id ='preguntaG2' >
+            <h2>b) ¿Qué chef peruano ha sido reconocido como el mejor del mundo?  </h2>
+            <div>
+                <input type="radio" id="rd_pg2_A" name="GASTRONOMIA_PG2" >Gastón Acurio <br>
+                <input type="radio" id="rd_pg2_B" name="GASTRONOMIA_PG2" value="Virgilio Martinez">Virgilio Martinez  <br>             
+                <input type="radio" id="rd_pg2_C" name="GASTRONOMIA_PG2" >Teresa Ocampo <br><br>
+            </div>
+            <button onclick="abrirpreguntaG3()">SIGUIENTE</button>
+        </div>
+
+        <div id ='preguntaG3' >
+            <h2>c) ¿Cuál es el plato bandera del Perú?</h2>
+            <div>
+                <input type="radio" id="rd_pg3_A" name="GASTRONOMIA3" >Pollo a la brasa  <br>
+                <input type="radio" id="rd_pg3_B" name="GASTRONOMIA3" >Seco a la norteña   <br>            
+                <input type="radio" id="rd_pg3_C" name="GASTRONOMIA3" value="Ceviche">Ceviche <br><br>
+            </div>
+            <button onclick="enviarG()">ENVIAR</button>
+        </div>
+
+        <div id ='preguntaC1' >
+            <h1>Cultura</h1>
+            <h2>a) ¿Cuál es la ciudadela con 5.000 años de antiguedad?</h2> 
+            <div>
+                <input type="radio" id="rd_pc1_A" name="CULTURA1" value="Caral">Caral<br>  
+                <input type="radio" id="rd_pc1_B" name="CULTURA1">Machu Picchu<br>             
+                <input type="radio" id="rd_pc1_C"name="CULTURA1" >Moche<br><br>
+            </div>
+            <button onclick="abrirpreguntaC2()">SIGUIENTE</button>
+        </div>
+
+        <div id ='preguntaC2' >
+            <h2>b)  ¿Cuál es la altura del pico más alto del nevado Huascarán?  </h2>
+            <div>
+                <input type="radio" id="rd_pc2_A" name="CULTURA2" value="6768mt">6768mt<br>
+                <input type="radio" id="rd_pc2_B" name="CULTURA2" >6634mt<br>              
+                <input type="radio" id="rd_pc2_C" name="CULTURA2" >8848mt<br><br>
+            </div>
+            <button onclick="abrirpreguntaC3()">SIGUIENTE</button>
+        </div>
+
+        <div id ='preguntaC3' >
+            <h2>c) Es considerado una de las siete maravillas del mundo</h2>
+            <div>
+                <input type="radio" id="rd_pc3_A" name="CULTURA3" >Lineas Nazca<br>
+                <input type="radio" id="rd_pc3_B" name="CULTURA3" >RÍo Amazonas<br>             
+                <input type="radio" id="rd_pc3_C" name="CULTURA3" value="Machu Picchu">Machu Picchu<br><br>
+            </div>
+            <button onclick="enviarC()">ENVIAR</button>
+        </div>
+
+        <div id ='Formulario_Resultado_Gastronomia' >
+            <h1>Resultado (Gastronomia)</h1>
+            <h2 id="h2_puntajeTotal_G">.</h2> 
+            <h2>Respuestas Correctas</h2> 
+            <p id="respuesta_correcta_GA"> </p>
+            <p id="respuesta_correcta_GB"></p>
+            <p id="respuesta_correcta_GC"></p><br>
+            <button onclick="abrirpreguntaC1()">CULTURA</button>
+            <button onclick="abrirpreguntaG1()">GASTRONOMIA</button>
+        </div>
+
+
+        <div id ='Formulario_Resultado_Cultura' >
+            <h1>Resultado (Cultura)</h1>
+            <h2 id="h2_puntajeTotal_C">.</h2>
+            <h2>Respuestas Correctas</h2> 
+            <p id="respuesta_correcta_CA">   </p>
+            <p id="respuesta_correcta_CB"> </p>
+            <p id="respuesta_correcta_CC"></p><br>
+            <button onclick="abrirpreguntaC1()">CULTURA</button>
+            <button onclick="abrirpreguntaG1()">GASTRONOMIA</button>
+        </div>
+
+        <script src='app.js'></script>
+    </body>
+</html>
