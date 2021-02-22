@@ -11,6 +11,9 @@
  
  Por lo que hemos diseñado este juegO, basado en recompensas con el fin de promover e incentivar el turismo local.
  
+ ###  Version Desktop
+ ![version desktop](/imagenes/trivia.PNG)
+ 
  ### REQUISITOS
  
  UX
