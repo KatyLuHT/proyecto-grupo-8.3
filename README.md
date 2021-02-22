@@ -1,18 +1,17 @@
-# proyecto-grupo-8.3
- <PROYECTO TRIVIA/>
+# PROYECTO TRIVIA 
  
  El ejercicio consiste en el diseño, desarrollo e implementación de una aplicación web de trivia, 
  donde el usuario (a través de la mejor experiencia posible) deberá responder distintas preguntas, 
  escogiendo entre diferentes opciones de una lista.
  
- <PLANTEAMIENTO, OBJETIVOS Y ALCANCE/>
+ ### PLANTEAMIENTO, OBJETIVOS Y ALCANCE
  
  En el marco de la coyuntura actual provocada por la pandemia a nivel mundial del COVID-19, 
  nuestro objetivo es proponer soluciones que permitan reactivar la economía interna post-pandemia, tomando como punto de partida el sector turismo. 
  
  Por lo que hemos diseñado este juegO, basado en recompensas con el fin de promover e incentivar el turismo local.
  
- <REQUISITOS/>
+ ### REQUISITOS
  
  UX
  HTML y CSS
