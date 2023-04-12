@@ -1,0 +1,19 @@
+{
+  "name": "proyecto-grupo-8.3",
+  "version": "1.0.0",
+  "description": "El ejercicio consiste en el diseño, desarrollo e implementación de una aplicación web de trivia, \r  donde el usuario (a través de la mejor experiencia posible) deberá responder distintas preguntas, \r  escogiendo entre diferentes opciones de una lista.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KatyLuHT/proyecto-grupo-8.3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KatyLuHT/proyecto-grupo-8.3/issues"
+  },
+  "homepage": "https://github.com/KatyLuHT/proyecto-grupo-8.3#readme"
+}

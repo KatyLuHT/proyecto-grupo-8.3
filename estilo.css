@@ -1,168 +1,345 @@
-body {
-    /*ubicacion de la imagen*/
-background-color: rgb(238, 238, 131);
-    background-image:url(imagenes/llamita2.png);
-    font-family: "Verdana", Times, serif;
-
-    /*para que no se repita*/
-    background-repeat: no-repeat;
-
-    /* cambia segun el ancho */
-    background-size: 40%;
+/* body {
+    background-color: rgb(238, 238, 131); 
     
-    /* color de la fuente*/
-    color:rgb(6, 5, 61);
+    font-family: "Verdana", Times, serif;
+    color: rgb(6, 5, 61);
+    margin: 0;
+    background-color: #fae99b;
+    background-image: url(imagenes/llamita2.png);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    width: 100%;
+    height: 100%; 
+} */
+
+body {
+    font-family: "Verdana", Times, serif;
+    color: rgb(231, 231, 243);
+    margin: 0;
+    padding: 0;
 }
-#formulario1{
-    font:italic;
-    color:rgb(6, 5, 61);
+
+.content-divition {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.container-left {
+
+    background-image: url(imagenes/llamita2.png);
+    background-repeat: no-repeat;
+    /* background-size: 40%; */
+    width: 45%;
+}
+
+.container-rigth {
+    background-color: #fae99b;
+    width: 55%;
+    /* background-size: 60%; */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* .container{
+    background-color: #fae99b;
+    background-image: url(imagenes/llamita2.png);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    width: 100%;
+    height: 100%;
+}  */
+
+h1 {
+    text-shadow: 1px 1px #efdec5;
+    margin: 30px 0px;
+    color: #ff5d2f
+}
+
+h2 {
+    font-size: 15px;
+    color: #004370;
+}
+
+.text {
+    font-size: 15px;
+    color: #004370;
+}
+
+p {
+    color: #fff6cf;
+    margin: 20px 0px;
+}
+
+#formulario1 {
+    font: italic;
+    color: rgb(6, 5, 61);
     text-align: center;
     /* ancho del div3  */
-    width: 400px; 
+    width: 400px;
     /* alto  del div     */
-    height: 300px; 
-    margin-top: 10%; 
-    margin-left: 60%; 
-    padding:1%;
+    height: 430px;
+    /* margin-top: 10%; */
+    margin-left: 45%;
+    padding: 1%;
+    background-size: cover;
+    background-color: #15c9ac;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 3px 5px -1px #0003, 0 6px 10px #00000024, 0 1px 18px #0000001f;
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0px;
+}
+
+input {
+    height: 25px;
+    border-radius: 4px;
+}
+
+.btn-play-now {
+    background-color: #ff5d2f;
+    border-radius: 5px;
+    width: 50%;
+    height: 50px;
+    margin: auto;
+    color: white;
+    border: unset;
+    cursor: pointer;
+    font-size: 14px;
+    box-shadow: 0 3px 5px -1px #0003, 0 6px 10px #00000024, 0 1px 18px #0000001f;
+}
+
+#formulario2 {
+    display: none;
+    font: italic;
+    color: rgb(6, 5, 61);
+    text-align: center;
+    width: 400px;
+    height: 400px;
+    margin-left: 45%;
+    background-color: #15c9ac;
+    border-radius: 20px;
+    padding: 1%;
     /* background-image:url(imagenes/formulario.jpg); */
     background-size: cover;
-    background-color:rgb(166, 245, 245);
-    border-radius:20px;
-    
-
+    border-radius: 20px;
+    box-shadow: 0 3px 5px -1px #0003, 0 6px 10px #00000024, 0 1px 18px #0000001f;
 }
-#formulario2{
-    display:none;
-    font:italic;
-    color:rgb(6, 5, 61);
+
+.content-button {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+.btn-category {
+    background-color: #ff5d2f;
+    border-radius: 5px;
+    margin: 50px 0px;
+    width: 45%;
+    height: 50px;
+    /* margin: auto; */
+    color: white;
+    border: unset;
+    cursor: pointer;
+    font-size: 14px;
+    box-shadow: 0 3px 5px -1px #0003, 0 6px 10px #00000024, 0 1px 18px #0000001f;
+}
+
+#preguntaG1 {
+    display: none;
+    font: italic;
+    color: rgb(6, 5, 61);
     text-align: center;
-    width: 400px; /*ancho del div*/      
-    height: 400px; /*alto  del div*/ 
-    margin-top: 10%; 
-    margin-left: 60%; 
-    padding:1%;
-    background-image:url(imagenes/formulario.jpg);
+    width: 400px;
+    /*ancho del div*/
+    height: 400px;
+    margin-left: 45%;
+    padding: 1%;
+    background-image: url(imagenes/gastronomia.jpg);
     background-size: cover;
-    border-radius:20px;
+    border-radius: 20px;
 }
 
-#preguntaG1{
-    display:none;
-    font:italic;
-    color:rgb(6, 5, 61);
+#preguntaG2 {
+    display: none;
+    font: italic;
+    color: rgb(6, 5, 61);
     text-align: center;
-    width: 400px; /*ancho del div*/      
-    height: 400px; /*alto  del div*/ 
-    margin-top: 10%; 
-    margin-left: 60%; 
-    padding:1%;
-    background-image:url(imagenes/gastronomia.jpg);
+    width: 400px;
+    /*ancho del div*/
+    height: 400px;
+    margin-left: 45%;
+    padding: 1%;
+    background-image: url(imagenes/gastronomia.jpg);
     background-size: cover;
-    border-radius:20px;
-}
-#preguntaG2{
-    display:none;
-    font:italic;
-    color:rgb(6, 5, 61);
-    text-align: center;
-    width: 400px; /*ancho del div*/      
-    height: 400px; /*alto  del div*/ 
-    margin-top: 10%; 
-    margin-left: 60%;
-    padding:1%;
-    background-image:url(imagenes/gastronomia.jpg);
-    background-size: cover; 
-    border-radius:20px;
+    border-radius: 20px;
 }
 
-#preguntaG3{
-    display:none;
-    font:italic;
-    color:rgb(6, 5, 61);
+#preguntaG3 {
+    display: none;
+    font: italic;
+    color: rgb(6, 5, 61);
     text-align: center;
-    width: 400px; /*ancho del div*/      
-    height: 400px; /*alto  del div*/ 
-    margin-top: 10%; 
-    margin-left: 60%; 
-    padding:1%;
-    background-image:url(imagenes/gastronomia.jpg);
+    width: 400px;
+    /*ancho del div*/
+    height: 400px;
+    margin-left: 45%;
+    padding: 1%;
+    background-image: url(imagenes/gastronomia.jpg);
     background-size: cover;
-    border-radius:20px;
+    border-radius: 20px;
 }
 
-#preguntaC1{
-    display:none;
-    font:italic;
-    color:rgb(6, 5, 61);
+#preguntaC1 {
+    display: none;
+    font: italic;
+    color: rgb(6, 5, 61);
     text-align: center;
-    width: 400px; /*ancho del div*/      
-    height: 400px; /*alto  del div*/ 
-    margin-top: 10%; 
-    margin-left: 60%; 
-    padding:1%;
-    background-image:url(imagenes/Cultura.jpg);
+    width: 400px;
+    /*ancho del div*/
+    height: 400px;
+    margin-left: 45%;
+    padding: 1%;
+    background-image: url(imagenes/Cultura.jpg);
     background-size: 100%;
-    border-radius:20px;
+    border-radius: 20px;
 }
 
-#preguntaC2{
-    display:none;
-    font:italic;
-    color:rgb(6, 5, 61);
+#preguntaC2 {
+    display: none;
+    font: italic;
+    color: rgb(6, 5, 61);
     text-align: center;
-    width: 400px; /*ancho del div*/      
-    height: 400px; /*alto  del div*/ 
-    margin-top: 10%; 
-    margin-left: 60%; 
-    padding:1%;
-    background-image:url(imagenes/Cultura.jpg);
+    width: 400px;
+    /*ancho del div*/
+    height: 400px;
+    margin-left: 45%;
+    padding: 1%;
+    background-image: url(imagenes/Cultura.jpg);
     background-size: 100%;
-    border-radius:20px;
+    border-radius: 20px;
 }
 
-#preguntaC3{
-    display:none;
-    font:italic;
-    color:rgb(6, 5, 61);
+#preguntaC3 {
+    display: none;
+    font: italic;
+    color: rgb(6, 5, 61);
     text-align: center;
-    width: 400px; /*ancho del div*/      
-    height: 400px; /*alto  del div*/ 
-    margin-top: 10%; 
-    margin-left: 60%;
-    padding:1%;
-    background-image:url(imagenes/Cultura.jpg);
-    background-size: 100%; 
-    border-radius:20px;
+    width: 400px;
+    /*ancho del div*/
+    height: 400px;
+    margin-left: 45%;
+    padding: 1%;
+    background-image: url(imagenes/Cultura.jpg);
+    background-size: 100%;
+    border-radius: 20px;
 }
 
-#Formulario_Resultado_Gastronomia{
-    display:none;
-    font:italic;
-    color:rgb(6, 5, 61);
+#Formulario_Resultado_Gastronomia {
+    display: none;
+    font: italic;
+    color: rgb(6, 5, 61);
     text-align: center;
-    width: 400px; /*ancho del div*/      
-    height: 400px; /*alto  del div*/ 
-    margin-top: 10%; 
-    margin-left: 60%; 
-    padding:1%;
-    background-image:url(imagenes/resultado.jpg);
+    width: 400px;
+    /*ancho del div*/
+    height: 400px;
+    margin-left: 45%;
+    padding: 1%;
+    background-image: url(imagenes/resultado.jpg);
     background-size: cover;
-    border-radius:20px;
+    border-radius: 20px;
 }
 
-#Formulario_Resultado_Cultura{
-    display:none;
-    font:italic;
-    color:rgb(6, 5, 61);
+#Formulario_Resultado_Cultura {
+    display: none;
+    font: italic;
+    color: rgb(6, 5, 61);
     text-align: center;
-    width: 400px; /*ancho del div*/      
-    height: 400px; /*alto  del div*/ 
-    margin-top: 10%; 
-    margin-left: 60%; 
-    padding:1%;
-    background-image:url(imagenes/resultado.jpg);
+    width: 400px;
+    /*ancho del div*/
+    height: 400px;
+    margin-left: 45%;
+    padding: 1%;
+    background-image: url(imagenes/resultado.jpg);
     background-size: cover;
-    border-radius:20px;
+    border-radius: 20px;
+}
+
+.content-input {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 300px;
+    align-items: flex-start;
+    margin: 25px auto;
 }
 
 
+.input {
+    display: flex;
+    align-items: center;
+}
+
+.resp {
+    color: black;
+    font-size: 16px;
+}
+
+
+@media(max-width:990px) {
+
+    .container-left {
+        display: none;
+    }
+
+    .container-rigth {
+        width: 100%;
+    }
+
+    h1{
+        font-size: 40px;
+    }
+    h2{
+        font-size: 25px;
+    }
+
+    p{
+        font-size:25px;
+    }
+
+    #formulario1,
+    #formulario2,
+    #preguntaG1,
+    #preguntaG2,
+    #preguntaG3,
+    #preguntaC1,
+    #preguntaC2,
+    #preguntaC3,
+    #Formulario_Resultado_Gastronomia,
+    #Formulario_Resultado_Cultura {
+        margin: 50px auto;
+        width: 100%;
+        max-width: 533px;
+        height: 100%;
+        max-height: 530px;
+    }
+
+    .btn-play-now {
+        font-size: 20px;
+        height: 60px;
+    }
+
+}
